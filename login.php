@@ -1,6 +1,7 @@
 <?php
     session_start();
     include("connection.php");
+    include("navbar.php");
     $msg="";
 
     if(isset($_POST['submit'])){
@@ -52,7 +53,7 @@
                 <input type="password" name="password" id="" placeholder="Enter Your Password" class="form-control" require>
             </div>
            
-                 <button name="submit" class="btn btn-primary ">Login Now</button>
+                 <button name="submit" class="btnn">Login Now</button>
             <p>Don't have an Account? <a href="register.php">Registration Now</a></p>
            </div>
             </div>

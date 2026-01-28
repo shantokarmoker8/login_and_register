@@ -1,5 +1,6 @@
 <?php
     include("connection.php");
+    include("navbar.php");
 
     $msg="";
     if(isset($_POST['submit'])){
@@ -54,7 +55,7 @@
             <div class="form-group">
                 <input type="password" name="cpassword" id="" placeholder="Confirm Your Password" class="form-control" require>
             </div>
-            <button name="submit" class="btn">Register Now</button>
+            <button name="submit" class="btnn">Register Now</button>
             <p>Already have an Account? <a href="login.php">Login Now</a></p>
            </div>
         </form>

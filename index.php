@@ -16,7 +16,7 @@
 <section class="hero">
     <h1>Welcome to Login and Registration Project</h1>
     <p>A simple and secure system where users can easily register, login, and manage their accounts.</p>
-    <button class="btnn">Get Started</button>
+    <a class="btnn" href="login.php">Get Started</a>
 
 </section>
     

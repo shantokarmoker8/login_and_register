@@ -39,6 +39,7 @@
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
+  text-decoration: none;
   transition: 0.3s;
 }
 
@@ -82,4 +83,43 @@
 .form form p {
   font-size: 15px;
   text-align: center;
+}
+
+.admin-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2d7f7;
+}
+
+.admin-card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  width: 500px;
+  max-width: 90%;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.admin-card h1 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.admin-card h3 {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.admin-card span {
+  color: #667eea;
+  font-weight: bold;
+}
+
+.admin-card p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
 }

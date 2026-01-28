@@ -1,5 +1,6 @@
 <?php
     include('connection.php');
+    include('navbar.php');
     session_start();
 
 ?>
@@ -14,10 +15,27 @@
 
 </head>
 <body>
-    <div class="user-page">
+    <div class="admin-container">
+  <div class="admin-card">
+    <h1>Welcome to User Page</h1>
+
+    <h3>
+      User ID <span><?php echo $_SESSION['user'] ?? ''; ?></span>
+    </h3>
+
+    <p>
+      You have full control over the system. From here, you can manage users,
+      monitor activities, and control application settings.
+    </p>
+    <a href="logout.php"><button class="btnn">Logout</button></a>
+  </div>
+</div>
+
+
+    <!-- <div class="user-page hero">
         <h2>Welcome to User page</h2>
         <p>User : <span><?php echo $_SESSION['user']; ?></span></p>
-        <a href="logout.php"><button class="btn font-weight-bold">Logout</button></a>
-    </div>
+        <a href="logout.php"><button class="btnn">Logout</button></a>
+    </div> -->
 </body>
 </html>
