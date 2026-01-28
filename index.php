@@ -1,5 +1,5 @@
 <?php
-    include("more/navbar.php");
+    include("navbar.php");
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@
 <section class="hero">
     <h1>Welcome to Login and Registration Project</h1>
     <p>A simple and secure system where users can easily register, login, and manage their accounts.</p>
-    <a class="btnn" href="more/login.php">Get Started</a>
+    <a class="btnn" href="login.php">Get Started</a>
 
 </section>
     

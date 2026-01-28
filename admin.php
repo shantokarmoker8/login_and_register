@@ -36,12 +36,5 @@ if(!isset($_SESSION['admin'])){
   </div>
 </div>
 
-<!-- 
-    <div class="user-page hero">
-        <h2>Welcome to Admin page</h2>
-        <p>Admin : <span><?php echo $_SESSION['admin'] ?? ''; ?></span></p>
-
-        <a href="logout.php"><button class="btnn">Logout</button></a>
-    </div> -->
 </body>
 </html>
