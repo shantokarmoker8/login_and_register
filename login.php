@@ -1,4 +1,5 @@
 <?php
+    session_start();
     include("connection.php");
     $msg="";
 
@@ -40,7 +41,7 @@
     <div class="form">
         <form action="" method="post">
             <h2>Login</h2>
-            <p class="msg"></p>
+            <p class="msg"><?php echo $msg;?></p>
             
             <div class="d-grid gap-2">
                 <div class="form-group">
